@@ -1,14 +1,21 @@
 body {
     font-family: 'Sriracha', cursive;
 }
+
 a {
-    color: white;
-}
-
-
-.navLinks {
     text-decoration: none;
 }
+
+li {
+    list-style: none;
+}
+.navLinks {
+    text-decoration: none;
+    transition: color 1s ease;
+    color: white;
+} .navLinks:hover {
+    color: red;
+} 
 
 .headerText {
     color: white;
@@ -35,7 +42,7 @@ a {
 }
 
 #mainContent {
-    max-width: 800px;
+    max-width: 600px;
 }
 
 .flexContainer{
@@ -50,15 +57,16 @@ a {
 
     margin: auto;
     padding: 1em;
+    font-size: 16pt;
 }
 
 #splashImage{
     max-width: 300px;
+    width: auto;
+    padding-right: auto;
 }
 
-.centerDiv {
-    
-}
+
 
 @media (max-width:1400px) {
     .flexContainer {
@@ -80,6 +88,47 @@ a {
     }
 }
 
-.graphText {
+#reflectionDiv {
     text-align: center;
+    padding-top: 5vh;
+    margin: auto;
+    width: 40vh;
+    
+}
+
+.reflectionBox {
+    padding: 1vh;
+    background-color: #494449;
+    margin: 1vh;
+    width: auto;
+    box-shadow: 0 5px 5px 0px black;
+    transition: box-shadow 1s ease;
+    
+}
+
+.reflectionLink {
+
+    color: white;
+    transition: color 1s ease-in;
+
+} 
+
+.reflectionLink:hover {
+    color: red;
+    
+}
+
+.reflectionBox:hover {
+    box-shadow: 5px 5px 5px 0px red;
+    color: red;
+} 
+
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 49%;
 }
