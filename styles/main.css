@@ -1,0 +1,79 @@
+body {
+    font-family: 'Sriracha', cursive;
+}
+a {
+    color: white;
+}
+
+.navLinks {
+    text-decoration: none;
+}
+
+.headerText {
+    color: white;
+}
+
+#headerBar {
+    background-color: black;
+    width: 100%;
+    margin: -8px;
+    min-height: 80px;
+    font-family: 'Aclonica', sans-serif;
+}
+
+#mainHeaderText {
+    float: left;
+    padding: 1.5vh;
+}
+
+#subHeaderText {
+    float: right;
+    padding: 2.5vh;
+    margin-right: 1em;
+}
+
+#mainContent {
+    max-width: 800px;
+}
+
+.flexContainer{
+
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    min-width: 600px;
+}
+
+.flexDiv {
+
+    margin: auto;
+    padding: 1em;
+}
+
+#splashImage{
+    max-width: 300px;
+}
+
+.centerDiv {
+    
+}
+
+@media (max-width:1400px) {
+    .flexContainer {
+        flex-direction: row;
+        min-width: 80%
+    }
+
+    #splashImage {
+        max-width: 40%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media (max-width:700px) {
+    .flexContainer {
+        flex-direction: column;
+
+    }
+}
