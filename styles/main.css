@@ -25,7 +25,7 @@ li {
     background-color: black;
     width: 100%;
     margin: -8px;
-    min-height: 70px;
+    min-height: 100px;
     font-family: 'Aclonica', sans-serif;
     box-shadow: 0 0 15px 0 black;
 }
@@ -75,9 +75,12 @@ li {
     }
 
     #splashImage {
-        max-width: 40%;
-        margin-left: 25%;
-        margin-right: 25%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #subHeaderText {
+        float: left;
     }
 }
 
@@ -85,6 +88,15 @@ li {
     .flexContainer {
         flex-direction: column;
 
+    }
+    #subHeaderText {
+        float: left;
+        font-size: 20px;
+        margin-top: auto;
+    }
+
+    #mainHeaderText {
+        font-size: 20px;
     }
 }
 
