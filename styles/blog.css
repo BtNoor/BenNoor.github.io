@@ -1,0 +1,82 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Boilerplate CSS for Navbar / Responsive */
+
+body {
+    margin: 0px;
+}
+
+.navLinks {
+    text-decoration: none;
+    transition: color 1s ease;
+    color: white;
+} .navLinks:hover {
+    color: red;
+} 
+
+.headerText {
+    color: white;
+}
+
+#headerBar {
+    background-color: black;
+    width: 100%;
+    
+    min-height: 100px;
+    font-family: 'Aclonica', sans-serif;
+    box-shadow: 0 0 15px 0 black;
+}
+
+#mainHeaderText {
+    float: left;
+    padding: 1vh;
+}
+
+#subHeaderText {
+    float: right;
+    padding: 2vh;
+    margin-right: 1em;
+}
+
+@media (max-width:1400px) {
+    .flexContainer {
+        flex-direction: row;
+        min-width: 80%
+    }
+
+    #splashImage {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #subHeaderText {
+        float: left;
+    }
+}
+
+@media (max-width:700px) {
+    .flexContainer {
+        flex-direction: column;
+
+    }
+    #subHeaderText {
+        float: left;
+        font-size: 20px;
+        margin-top: auto;
+    }
+
+    #mainHeaderText {
+        font-size: 20px;
+    }
+}
