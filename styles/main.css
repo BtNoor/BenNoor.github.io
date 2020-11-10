@@ -5,6 +5,7 @@ a {
     color: white;
 }
 
+
 .navLinks {
     text-decoration: none;
 }
@@ -17,18 +18,19 @@ a {
     background-color: black;
     width: 100%;
     margin: -8px;
-    min-height: 80px;
+    min-height: 70px;
     font-family: 'Aclonica', sans-serif;
+    box-shadow: 0 0 15px 0 black;
 }
 
 #mainHeaderText {
     float: left;
-    padding: 1.5vh;
+    padding: 1vh;
 }
 
 #subHeaderText {
     float: right;
-    padding: 2.5vh;
+    padding: 2vh;
     margin-right: 1em;
 }
 
@@ -76,4 +78,8 @@ a {
         flex-direction: column;
 
     }
+}
+
+.graphText {
+    text-align: center;
 }
