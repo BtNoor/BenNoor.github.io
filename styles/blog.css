@@ -17,7 +17,7 @@ h3 {
     font-size: 140%;
 }
 
-h1{
+.pageHeader {
     padding: 3vh;
     text-align: center;
     text-decoration: underline;
