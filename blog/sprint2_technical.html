@@ -7,6 +7,8 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Sriracha&display=swap" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+
     <link rel='stylesheet' href='../styles/blog.css' type='text/css'></script>
 
 
@@ -25,5 +27,42 @@
           <a class='navLinks' href='https://btnoor.github.io'>Home</a>
         </h3> 
       </div>
+
+      <div id='informationContainer'>
+          <h1>Absolute, Relative & Fixed Positioning</h1>
+        <div class='informationText'>
+            <h3>Absolute Positioning</h3>
+            <p class='paraText'>Absolute is relative to the container it sits in within the code (the parent element) - so any co-ordinates you give it; it calculates it's distance based on the parent element.
+            </p>
+            <p class='paraText'> A use case of this would be creating a div with a particular size, and  being able to specify where in that div you’d want the image to sit.
+            </p>
+            <p class='paraText'>Refer to the image below for an example:
+            </p>
+
+        <img class='informationImages' src="../images/absolute.jpeg">
+        </div>
+        <div class='informationText'>
+            <h3>Relative Positioning</h3>
+            <p class='paraText'>Relative refers to the default position that the element is placed in - in most cases; this uses the next available space on the page or container it sits in. When you move an element with relative positioning, it moves it x amount of pixels based on it’s default location.
+            </p>
+            <p class='paraText'>When an element is placed on a page with say a nav element above it - if you wanted to give it x amount of pixels from the navbar - you’d use relative positioning and push it out from the top. There are several other ways to do this, say with padding but each have their use cases.
+            </p>
+            <p class='paraText'>Refer to the image below for an example:
+            </p>
+
+            <img class='informationImages' src="../images/relative.jpeg">
+        </div>
+        <div class='informationText'>
+            <h3>Fixed Positioning</h3>
+            <p class='paraText'>Fixed positioning allows you to place an object on a page, and it remaining ‘fixed’ in place when the page scrolls. A great use case example of this would be that you would fix a nabber to the top of a page, so it remains in place while the page is scrolled.</p>
+            <p class='paraText'>This way, your navigation links are always only a click away, and in the current viewport.</p>
+            <p class='paraText'>I haven't included an image for this example, but try it out! You would have most likely seen this in action given that it's the default positioning action for a new element unless specified otherwise.
+            </p>
+        </div>
+
+        <div style='min-height: 30vh;'>
+
+        </div>
+    </div>
 
 </body>
