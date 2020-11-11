@@ -144,5 +144,78 @@ li {
 footer {
     position: fixed;
     bottom: 0;
-    left: 49%;
+    left: 48%;
+}
+
+/* css for sprint-1-cultural*/
+
+.sprintOneHeader {
+    text-align: center;
+    padding: 3vh;
+}
+
+.cardContainer {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.textCard {
+    max-width: 40vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-right: 3vh;
+    padding-left: 3vh;
+    
+}
+
+.cardLeft {
+
+    margin-left: 15%;
+    
+}
+
+.cardRight {
+
+    margin-left: 55%;
+}
+
+.cardStory {
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+
+#verticleRule {
+
+    position: fixed;
+    height: 75%;
+    margin-bottom: 5vh;
+    margin-top: -3vh;
+    color: rgb(119, 118, 118);
+    max-width: 1vh;
+    margin-left:50%;
+    background-color: rgb(119, 118, 118);
+}
+
+.spaceFiller {
+
+    min-height: 15vh;
+}
+
+@media (max-width:1700px) {
+
+    #verticleRule {
+        display: none;
+    }
+}
+
+@media (max-width:1350px) {
+
+    .cardLeft {
+        margin: auto;
+    }
+
+    .cardRight {
+        margin:auto;
+    }
 }
