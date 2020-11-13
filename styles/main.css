@@ -224,3 +224,36 @@ footer {
 
 /*Start of Sprint 2 Cultural*/
 
+/*Start of Sprint 3 Cultural*/
+
+.textDump {
+    word-wrap: break-word;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    padding-top: 1vh;
+    width: auto;
+    margin: auto;
+}
+
+.eQDiv {
+
+    max-width: 70vh;
+    margin: auto;
+    padding-bottom: 40px;
+    margin-top: -3vh;
+}
+
+#mindfullImage {
+
+    width: auto;
+    max-width: 70vh;
+    margin: auto;
+    display:block;
+    margin-bottom: 20px;
+}
+
+.sprintThreeHeader {
+    text-align: center;
+    padding: 3vh;
+    margin-top: 5vh;
+}
