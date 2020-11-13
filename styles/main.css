@@ -256,4 +256,11 @@ footer {
     text-align: center;
     padding: 3vh;
     margin-top: 5vh;
+    font-size: 50px;
+}
+
+.sThreeLists {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    list-style-type: circle;
 }
