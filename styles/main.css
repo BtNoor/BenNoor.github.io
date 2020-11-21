@@ -191,6 +191,7 @@ footer {
 .sprintOneHeader {
     text-align: center;
     padding: 3vh;
+    padding-top: 150px;
 }
 
 .cardContainer {
@@ -278,8 +279,9 @@ footer {
 
     max-width: 70vh;
     margin: auto;
-    padding-bottom: 40px;
+
     margin-top: -3vh;
+    padding-top: 150px;
 }
 
 #mindfullImage {
