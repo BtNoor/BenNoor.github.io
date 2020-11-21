@@ -67,7 +67,7 @@ $(document).ready(function() {
           $('.pbFour').css('width',phaseThree + '%');
           $('#phaseThree').text("Bootcamp - " + phaseThree + '%');
       }, {
-          offset: '90%'
+          offset: '80%'
       }, {
             
       });
