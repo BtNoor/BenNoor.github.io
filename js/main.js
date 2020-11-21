@@ -53,11 +53,11 @@ $(document).ready(function() {
 
           //Update Progress Pre
           $('.pbOne').css('width',preCourse + '%');
-          $('#preCourse').text("Pre Course - " + preCourse + '%');
+          $('#preCourse').text("Pre Course Study - " + preCourse + '%');
 
           //Update Progress Phase One
           $('.pbTwo').css('width',phaseOne + '%');
-          $('#phaseOne').text("Remote Learning - " + phaseOne + '%');
+          $('#phaseOne').text("Foundations - " + phaseOne + '%');
 
           //Update Progress Phase Two
           $('.pbThree').css('width',phaseTwo + '%');
@@ -67,7 +67,7 @@ $(document).ready(function() {
           $('.pbFour').css('width',phaseThree + '%');
           $('#phaseThree').text("Bootcamp - " + phaseThree + '%');
       }, {
-          offset: '65%'
+          offset: '90%'
       }, {
             
       });

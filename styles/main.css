@@ -138,13 +138,21 @@ li {
 } 
 
 
-
+#partTwo {
+    margin-top: 5vh;
+    text-align: center;
+}
 
 
 footer {
     position: fixed;
     bottom: 0;
     left: 48%;
+}
+
+#graphContainer {
+
+    margin-bottom: 10vh;
 }
 
 /* css for sprint-1-cultural*/
