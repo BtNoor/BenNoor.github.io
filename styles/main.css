@@ -1,6 +1,7 @@
 body {
     font-family: 'Sriracha', cursive;
-    margin: 0px;
+    margin: 0px!important;
+    width: 100%!important;
 }
 
 a {
@@ -23,23 +24,27 @@ li {
 }
 
 #headerBar {
-    background-color: black;
+    background-color: rgb(81, 129, 148);
     width: 100%;
+    margin: 0px;
     
     min-height: 100px;
     font-family: 'Aclonica', sans-serif;
     box-shadow: 0 0 15px 0 black;
+    margin-bottom: 200px;
 }
 
 #mainHeaderText {
     float: left;
     padding: 1vh;
+    font-size: 25px;
 }
 
 #subHeaderText {
     float: right;
     padding: 2vh;
     margin-right: 1em;
+    font-size: 20px;
 }
 
 #mainContent {
@@ -64,8 +69,6 @@ li {
 
 #splashImage{
     max-width: 300px;
-    width: auto;
-    padding-right: auto;
 }
 
 
@@ -142,7 +145,7 @@ li {
 #partTwo {
 
     text-align: center;
-    font-size: 1.5vh;
+    font-size:16px;
     margin-bottom: 5vh;
 }
 
@@ -157,6 +160,30 @@ footer {
 
     margin-bottom: 10vh;
 }
+
+/*reformatting with bootstrap*/
+
+#firstContainer {
+    padding-top: 200px;
+}
+
+#secondContainer {
+    padding: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: rgb(81, 129, 148);
+}
+
+.fullHeight {
+    height: 100%;
+    box-shadow: 0px 5px 5px 0px rgb(16, 56, 56);
+    padding: 25px;
+}
+
+.cardSpacing {
+    margin-bottom: 60px;
+}
+
 
 /* css for sprint-1-cultural*/
 
