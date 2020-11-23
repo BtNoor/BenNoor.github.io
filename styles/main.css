@@ -320,3 +320,23 @@ footer {
 .codeEx {
     padding-left: 1vh;
 }
+
+/* Sprint 4 Cultural */
+
+/* Sprint 4 Technical */
+
+
+#tangleImage {
+
+    width: 60%;
+    max-width: 70vh;
+    margin: auto;
+    display:block;
+    margin-bottom: 50px;
+}
+
+.sprintFourTechnicalHTwo {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
